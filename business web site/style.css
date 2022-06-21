@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2? family= Berkshire+Swash & family= Cabin:wght@600 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+*::selection {
+    background: lime;
+    color: #fff;
+}
+
+body {
+    overflow-x: hidden;
+}
+/*____________________Start header section____________________________*/
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+}
+.logo {
+    margin: 1.1rem;
+    color: #e98150;
+}
+.logo2 {
+    display: none;
+}
+.nav {
+    background-image: url(./images/towerr.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar {
+    height: 100px;
+    background-color: #5b5e61d3;
+}
+.checkbtn {
+    font-size: 35px;
+    float: right;
+    margin-right: 5px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+.i-container {
+    margin: 10px 5px;
+}
+.i {
+    margin-bottom: 5px;
+    width: 30px;
+    height: 5px;
+    background: #fff;
+    border-radius: 5px;
+}
+.navbar a {
+    color: white;
+    line-height: 100px;
+    padding: 10px;
+    transition: all .5s;
+}
+.nav a:hover, .nav .active {
+    background-color: azure;
+    color: #5b5e61;
+}
+.header-title {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.child-header-title {
+    margin-bottom: 4.2rem;
+    margin-right: 3.8rem;
+}
+.company-name {
+    color: #e98150;
+}
+/* ______Start Leader section________ */
+.leader-container {
+    height: 100vh;
+    width: 100%;
+}
+.leader-texts {
+    padding: 70px 80px 0 80px;
+    text-align: center;
+}
+.leader-texts h1 {
+    color: #e98150;
+}
+.leader-texts hr {
+    margin: 0 auto;
+    height: 2px;
+    width: 33%;
+    background: #e98150;
+    margin-bottom: 50px;
+}
+.leader-card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 50px;
+}
+.leader-card {
+    text-align: center;
+    transition: all .5s;
+}
+.leader-card:hover {
+    transform: scale3D(1.2, 1.1, 5.5);
+}
+.leader-card:hover h2 {
+    color: #d82d0f;
+}
+.leader-card img {
+    width: 13em;
+}
+.leader-card h2 {
+    padding: 10px 10px 15px 10px;
+}
+.leader-card p {
+    padding: 1em;
+}
+/* __________Start BAr information section__________ */
+.bar-information {
+    margin-top: 100px;
+    height: 150px;
+    width: 100%;
+    background-color: #0e0434;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.clients {
+    text-align: center;
+}
+.bar-information h1 {
+    font-size: 40px;
+    color: #d82d0f;
+    font-family: 'Berkshire Swash', cursive;
+}
+.bar-information h3 {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-size: 10px;
+}
+/* START BUSINESSMAN */
+.businessman {
+    width: 100%;
+    height: 70vh;
+}
+/* --------------Start Contact Us------------------------ */
+
+
+.contactus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #290986, #1b1be1, #4813e4);
+    color: aliceblue;
+    padding: 150px;
+}
+.contactUsTexts {
+    text-align: center;
+    padding: 1.7rem 0;
+}
+.contactUsTexts p{
+    padding: 1.5rem;
+}
+
+form .top{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+    margin: 1.2rem 0;
+}
+
+.input{
+    height: 2.3rem;
+    border: none;
+    border-bottom: 2px solid #b5b6b7;
+    background: transparent;
+    outline: none;
+    color: #8e8e8e;
+}
+.foot {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot textarea{
+    height: 131px;
+    margin: 1.6rem 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #b5b6b7;
+    resize: none;
+}
+button {
+    padding: .5rem;
+    width: 100px;
+    background-color: #a2694d;
+    border: none;
+    color: #fff;
+    font-family: "Algerian";
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: all .7s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: #030baa;
+    background-color: whitesmoke;
+}
+
+.button{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+input, textarea::placeholder{
+    padding-left: 1.2rem;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------Start About Us --------- */
+.About-us {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+.About-img {
+    background: url(./images/meetings.png);
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+}
+.About {
+    width: 45%;
+    display: flex;
+    background: #f6f6f6;
+    flex-direction: column;
+    border: 2px solid #464343f6;
+    margin: 0 0 0 20px;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all .8s;
+}
+.About:hover {
+    transform: scale(1.08);
+}
+.About-texts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+.About-texts h1 {
+    text-transform: uppercase;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.About-texts p {
+    font-size: 10px;
+}
+.About img {
+    width: 18%;
+    height: 70px;
+    border-radius: 50%;
+}
+.Aboutimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.About h3 {
+    padding: 5px;
+    border: 1px solid #3b3b3b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all .7s;
+}
+.About h3:hover {
+    background: #3b3b3b;
+    color: #f6f6f6;
+    transform: scale(1.2);
+}
+.abouth3 {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* _______________________Start top-footer________________ */
+
+.top-footer {
+    background: #1b2c33;
+    color: azure;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    height: 200px;
+}
+
+
+.content{
+    font-size: 13px;
+}
+
+
+.content h2{
+    padding: 1.2rem 0;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* \_______________STart bottom-footer__________________ */
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: #000;
+    color: white;
+}
+.brands i{
+    padding: 5px;
+    border: 1px solid #fff;
+    transition: all ease-out .6s;
+}
+.brands i:hover {
+    border: none;
+    border-bottom: 3px solid #f20808;
+    background-color: #4813e4;
+}
+@media (max-width: 675px) {
+    .leader-card img {
+        width: 10em;
+    }
+    .About {
+        width: 55%;
+    }
+    .ul {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        right: -100%;
+        text-align: center;
+        background: #0059ff;
+        transition: .5s;
+    }
+    .checkbtn {
+        display: block;
+        margin-right: 10px;
+        color: #fff;
+    }
+    #check:checked ~ .ul  {
+        right: 0;
+    }
+    .navbar a {
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 900;
+    }
+    .navbar a:hover, .navbar .active {
+        color: #0059ff;
+    }
+    .logo {
+        display: none;
+    }
+    .logo2 {
+        display: block;
+        color: #e98150;
+        font-family: 'Cabin', sans-serif;
+    }
+}
